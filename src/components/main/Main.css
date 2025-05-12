@@ -1,0 +1,43 @@
+main {
+
+    padding-left: clamp(.5em, 2vw, 2em);
+    padding-top: 1em;
+    width: calc(100% - clamp(.5em, 2vw, 2em));
+    height: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    color: #353839;
+    font-family: Urbanist;
+    position: relative;
+
+    .page {
+
+        position: relative;
+        padding: 1em;
+        width: calc(100% - 2em);
+        height: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+
+        
+        h2 {
+
+            margin: 0;
+            padding: 0;
+            font-weight: 900;
+            font-size: clamp(2em, 3vw, 3em);
+            border-bottom-width: 1px;
+            border-bottom-color: #353839;
+            border-bottom-style: dotted;
+            text-shadow: -2px 1px 5px #3538392f;
+            position: relative;
+
+        }
+
+    }
+
+}
