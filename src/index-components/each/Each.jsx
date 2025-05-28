@@ -28,13 +28,13 @@ export default function Each({item, length, index}){
 
             </div>
 
-            <div className='picture'>
+            {pic ? <div className='picture'>
 
                 <img src={pic} />
 
                 <span>{span}&nbsp;{hrefs ? hrefs.map((item, index) => (<><a target='_blank' key={index} href={item.href}>{item.title}</a>{hrefs.length > index + 1 ? ", " : null}</>)) : null}</span>
             
-            </div>
+            </div> : null}
 
         </div>
 

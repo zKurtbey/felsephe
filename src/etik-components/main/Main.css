@@ -1,4 +1,4 @@
-main {
+.etik-main {
 
     padding-left: clamp(.5em, 2vw, 2em);
     padding-top: 1em;
@@ -35,6 +35,18 @@ main {
             border-bottom-style: dotted;
             text-shadow: -2px 1px 5px #3538392f;
             position: relative;
+
+        }
+
+        p {
+
+            margin: 0;
+            margin-top: 15px;
+            line-height: clamp(1.618em, 1.8vw, 2.25em);
+            padding: 0;
+            font-weight: 400;
+            font-size: clamp(1em, 1.2vw, 1.5em);
+            text-align: start;
 
         }
 

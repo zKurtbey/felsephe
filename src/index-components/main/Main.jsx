@@ -344,9 +344,9 @@ Yaşam, özgürlük ve mülkiyet. Bu hakları korumak için insanlar bir toplum 
 
     return (
 
-        <main>
+        <main className='index-main'>
 
-            {philosophers.map((item, index) => (
+            {philosophers?.map((item, index) => (
 
                 <div id={item.age} className='page' key={index}>
 
